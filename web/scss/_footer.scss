@@ -1,0 +1,89 @@
+// ionclude all your related style here in the footer, you can leave it empty if the page has no footer
+footer { border-top: 30px solid $coOrange; z-index: 2; position: relative; background: $coGreen; padding: 15px 0; }
+
+
+.footer-wrap {
+	color: $coWhite;
+
+
+}
+
+.footer-logo {
+	max-width: 150px;
+	margin: 10px auto 0;
+	
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+.footer-menu {
+	position: relative;
+	padding-bottom: 40px;
+
+	&:after {
+		content:'';
+		display: block;
+		float: none;
+		width: 90%;
+		margin-left: -45%;
+		left: 50%;
+		bottom: 0;
+		height: 1px;
+		background: $coLightGrey;
+		position: absolute;
+
+	}
+
+	p {
+		text-align: center;
+		padding: 0px 100px;
+	}
+
+	ul {
+		text-align: center;
+		padding: 35px 0 25px;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding: 0px 10px;
+		}
+	}
+
+	a {
+		color: $coWhite;
+		font-size: 16px;
+
+		&:hover {
+			color: $coOrange;
+		}
+	}
+}
+
+.social-list {
+	padding: 20px 0;
+
+	ul {
+		text-align: center;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding: 0px 15px;
+
+			a {
+				font-size: 24px;
+				color: $coWhite;
+
+				&:hover {
+					color: $coOrange;
+				}
+			}
+		}
+	}
+}
+
+

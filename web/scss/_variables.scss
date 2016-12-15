@@ -1,0 +1,38 @@
+// include all templated CSS properties here such as font sizes, margin, padding, color, background color, etc
+
+// for width
+$maxWidth   : 1024px; // can be use as max width of the container
+
+// for fonts
+$defaultFont: 'Roboto', 'Helvetica', 'Calibri'; // default font families and error support for any html tags
+$fontA      : 'Arial';
+
+
+// for font sizes 
+$fontSmall : 14px;
+$fontMedium : 16px;
+$fontLarge  : 18px;
+$fontxLarge : 20px;
+$fontxxLarge: 22px;
+
+// for colors
+$defaultColor     : #231f20; // default color for the independent paragraphs, input fields, etc
+$defaultLinkColor : #3189DD; // default link color for the whole site
+$coWhite          : #ffffff;
+$coBlack          : #000000;
+$coGrey : #717073;
+$coLightGrey : #a7a9ac;
+$coBrown : #a39161;
+$coGreen : #00703c;
+$coLightGreen : #00b450;
+$coOrange : #faaf3b;
+
+// for margin and padding
+$spaceOne   : 10px;
+$spaceTwo   : 20px;
+$spaceThree : 30px;
+$spaceFour  : 40px;
+$spaceFive  : 50px;
+
+// for image sprite
+//$imgSprite: url('');

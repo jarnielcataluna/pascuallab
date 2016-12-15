@@ -1,0 +1,31 @@
+// include all your new classess here that is intended for mobile. Only if necessary but please use breakpoints mixins
+
+@media only screen and (max-height: 767px) {
+	.main-text {
+
+		h1 {
+			font-size: 62px;
+			margin-bottom: 15px;
+
+			span {
+				font-size: 75px;
+				line-height: 40px;
+				font-weight: 900;
+			}
+		}
+
+		.btn {
+			margin-top: 20px;
+		}
+	}
+
+	.home-main-slide {
+
+		.table-wrap {
+
+			.table-cell {
+				padding-top: 200px;
+			}
+		}
+	}
+}
