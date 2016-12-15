@@ -116,13 +116,13 @@
 			
 		</section>
 		<div class="subscribe-wrap">
-			<a href="#" class="subscribe-arrow"><img src="images/home/subsriber-arrow.png" alt=""></a>
+			<a href="#h-about" class="subscribe-arrow"><img src="images/home/subsriber-arrow.png" alt=""></a>
 			<div class="container">
 				<h3>Subscribe to our newsletter for more information.</h3>
 				<a class="btn btn-ghost">Subscribe Now</a>
 			</div>
 		</div>
-		<section class="sec-wrap h-about">
+		<section id="h-about" class="sec-wrap h-about">
 			<div class="container">
 				<div class="sec-head animated hiding" data-animation="fadeInUp">
 					<h2 class="sec-title">About Us</h2>

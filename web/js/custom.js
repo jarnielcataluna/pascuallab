@@ -129,6 +129,12 @@ Pace.on('done', function() {
 		 
 		  
 	}, 500);
+
+	$('.subscribe-arrow').click(function(e){
+		e.preventDefault();
+		$("html, body").animate({ scrollTop: $('#h-about').offset().top }, 600);
+	});
+	
 });
 
 function doCoverImage() {
